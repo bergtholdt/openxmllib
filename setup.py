@@ -40,4 +40,5 @@ setup(
     entry_points={
         'console_scripts': ['openxmlinfo = openxmllib.shell:openxmlinfo']
     },
+    use_2to3=True,
     )
