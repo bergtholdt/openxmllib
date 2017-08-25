@@ -31,6 +31,9 @@ setup(
         "Programming Language :: Python"
     ],
     packages=find_packages(),
+    package_data={
+        'openxmllib': ['version.txt'],
+    },
     include_package_data=True,
     exclude_package_data={
         '': ['tests']
